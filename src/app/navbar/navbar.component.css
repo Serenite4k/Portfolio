@@ -1,0 +1,32 @@
+img{
+    width: 100px;
+    margin-left: 20%;
+    
+}
+
+
+div{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+   
+}
+li{
+    float: left;
+    margin: 5px;
+    list-style-type: none;
+    color: #0099ff;
+    font-size: 15px; 
+    white-space: nowrap;
+}
+
+li:hover{
+    color: #077dcc
+}
+
+#container{
+    padding: 10px;
+    background-color: #464646;
+    text-align: center;
+}

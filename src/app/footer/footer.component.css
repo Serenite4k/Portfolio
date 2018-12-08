@@ -1,0 +1,26 @@
+img{
+    width: 200px;
+    
+}
+
+div{
+    padding: 20px;
+}
+
+h1{ 
+    font-size: 20px;
+}
+
+#container{
+    padding: 10px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+#sm{
+    padding: 10px;
+    text-align: center;
+}
+#sm img{
+    width: 75px;
+    
+}
