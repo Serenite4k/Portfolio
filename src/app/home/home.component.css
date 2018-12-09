@@ -1,6 +1,6 @@
 #introduction{
     text-align: center;
-    height: 92vh;
+    height: 95vh;
     margin: 0%;
     background:linear-gradient(0deg,#00ccff4d,#00a2ff52),url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size:cover;
@@ -11,7 +11,7 @@
     margin-top: 15%;
 }
 
-button{
+#introduction button{
     margin-top: 10%;
     border: solid #2d2d2d 1.5px;
     background-color: #ffffffc9;
@@ -25,7 +25,7 @@ button{
     height: 200px;
     padding: 0px 10px 0px 10px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .aboutsec img{
@@ -70,6 +70,12 @@ button{
     background-size: cover;
     padding:10%;
     color: white;
+}
+
+#contact button{
+    margin-top: 10%;
+    border: solid #c7c7c7 1.5px;
+    background-color: #ffffff;
 }
 
 

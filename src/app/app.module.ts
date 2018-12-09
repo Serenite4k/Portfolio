@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {ScrollToModule} from '@nicky-lenaers/ngx-scroll-to';
+import {NgsRevealModule} from 'ngx-scrollreveal';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +23,7 @@ import { HomeComponent } from './home/home.component';
     ScrollToModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
+    NgsRevealModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
