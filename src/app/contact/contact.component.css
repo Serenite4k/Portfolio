@@ -1,0 +1,35 @@
+#title{
+    text-align:center;
+    background: url(https://images.pexels.com/photos/222/black-and-white-businessman-man-suit.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    color:  white;
+    height: 50vh;
+}
+
+#title h1{
+    margin-top: 10%;
+
+}
+
+#sm{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#sm input,textarea{
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 7px;
+    
+}
+
+#sm textarea{
+    height: 300px;
+}
+
+#sm button{
+    border: solid black 1.5px;
+    background: none;
+
+    margin: 15px;
+}

@@ -1,0 +1,35 @@
+<div class="row">
+  <div id="title"class="col-sm-12">
+    <h1>Contact Me</h1>
+    <span>Have any questions, comments, concerns, legal inquries, or just wanna chat</span>
+  </div>
+
+  <div id="sm"class="col-sm-6">
+    <form (ngSubmit)="processForm()" method="POST"
+    action="https://script.google.com/macros/s/AKfycbzhC47DJjAOcBNV5T8Ny4_Du5XqwIPTClryNHd2/exec">
+      <h1>Contact Form</h1>
+      <!-- name -->
+      <div class="field">
+        <input type="text" name="name" class="input" placeholder="Your Name" [(ngModel)]="name" required
+        minlength="3">
+      </div>
+    
+      <!-- email -->
+      <div class="field">
+        <input type="email" name="email" class="input" placeholder="Your Email" [(ngModel)]="email" required
+        email>
+      </div>
+    
+      <!-- message -->
+      <div class="field">
+        <textarea class="textarea" name="message" placeholder="Message" [(ngModel)]="message"  required minlength="10"></textarea>
+      </div>
+    
+      <button type="submit">Submit</button>
+    
+    </form>
+  </div>
+
+  <div id="fm"class="col-sm-6"></div>
+
+</div>

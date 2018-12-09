@@ -27,4 +27,5 @@ li:hover{
     padding: 10px 0px 10px 0px;
     background-color: #464646;
     text-align: center;
+    position: sticky fixed;
 }

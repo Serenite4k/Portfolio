@@ -6,32 +6,35 @@
    <button class="bounce-top" [ngx-scroll-to]="'#About'">Deep Dive</button>
   </div>
 
-  <div id="About" class="row col-sm-12">
+  <div id="About" class="row col-sm-12"[ngsReveal]="{ reset:true, delay:500}">
 
-    <div class="aboutsec col-md-5" [ngsReveal]="{ reset:true, delay:500}"><img src="../../assets/round-person-24px.svg"></div>
+    <div class="definer col-sm-12 row">
+    <div class="aboutsec col-md-5" ><img src="../../assets/round-person-24px.svg"></div>
 
-    <div class="aboutsec col-md-7" [ngsReveal]="{ reset:true, delay:500}"><h1>Who am I</h1> 
+    <div class="aboutsec col-md-7" ><h1>Who am I</h1> 
       <span>My real name is Devin, though im also known as Serenite.
         <br> I am a freelance junior web developer.</span>
     </div>
+</div>
 
 
 
+    <div class="definer row col-sm-12"[ngsReveal]="{ reset:true, delay:500}">
+    <div class="aboutsec col-md-5" ><img src="../../assets/round-desktop_mac-24px.svg"></div>
 
-
-    <div class="aboutsec col-md-5" [ngsReveal]="{ reset:true, delay:500}"><img src="../../assets/round-desktop_mac-24px.svg"></div>
-
-    <div class="aboutsec col-md-7"[ngsReveal]="{ reset:true, delay:500}" ><h1>My Specialty</h1>
+    <div class="aboutsec col-md-7"><h1>My Specialty</h1>
       <span>I design websites and code them from the ground up.<br> I also do mockup designs in Adobe XD for clients<br> I code for fun and sometimes profit.</span>
     </div>
+</div>
 
 
-      <div class="aboutsec col-md-5" [ngsReveal]="{ reset:true, delay:500}"><img src="../../assets/round-done-24px.svg"></div>
+    <div class="definer row col-sm-12"[ngsReveal]="{ reset:true, delay:500}">
+      <div class="aboutsec col-md-5"><img src="../../assets/round-done-24px.svg"></div>
 
-  <div class="aboutsec col-md-7" [ngsReveal]="{ reset:true, delay:500}"><h1>My Workflow</h1>
+  <div class="aboutsec col-md-7" ><h1>My Workflow</h1>
     <span>I hate unfinished and sluggish products. <br>I make sure everything works in an organized, clean manner.</span>
   </div>
-
+</div>
   </div>
     
 
@@ -53,7 +56,7 @@
     <h1 [ngsReveal]="{ reset:true, delay:400}">Inquries</h1>
     <span [ngsReveal]="{ reset:true, delay:400}">Contact me, I'll try my best to get back to you ASAP</span>
     <br>
-    <button [ngsReveal]="{ reset:true, delay:600}"style="margin-top: 20px;">Contact Me</button>
+    <button [ngsReveal]="{ reset:true, delay:600}"style="margin-top: 20px;" routerLink="/contact">Contact Me</button>
   </div>
   
 
