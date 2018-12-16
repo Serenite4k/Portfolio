@@ -12,20 +12,28 @@ ul{
 
 li{
     display: inline;
-    margin: 5px;
+    margin: 5px 10px 5px 10px;
     list-style-type: none;
     color: #0099ff;
     font-size: 18px; 
     white-space: nowrap;
 }
 
+a{
+    color: #0099ff
+}
+
+a:hover{
+    color: #077dcc;
+    text-decoration: none;
+}
 li:hover{
     color: #077dcc
 }
 
 #container{
     padding: 10px 0px 10px 0px;
-    background-color: #464646;
+    background-color: #303030;
     text-align: center;
     position: sticky fixed;
 }

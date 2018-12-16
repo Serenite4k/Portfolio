@@ -6,49 +6,166 @@
    <button class="bounce-top" [ngx-scroll-to]="'#About'">Deep Dive</button>
   </div>
 
-  <div id="About" class="row col-sm-12"[ngsReveal]="{ reset:true, delay:500}">
+  <div id="About" class="row col-sm-12"[ngsReveal]="{ reset:true, delay:200}">
 
     <div class="definer col-sm-12 row">
     <div class="aboutsec col-md-5" ><img src="../../assets/round-person-24px.svg"></div>
 
     <div class="aboutsec col-md-7" ><h1>Who am I</h1> 
       <span>My real name is Devin, though im also known as Serenite.
-        <br> I am a freelance junior web developer.</span>
+        <br> I'm a freelance junior web developer.</span>
     </div>
 </div>
 
 
 
-    <div class="definer row col-sm-12"[ngsReveal]="{ reset:true, delay:500}">
+    <div class="definer row col-sm-12"[ngsReveal]="{ reset:true, delay:200}">
     <div class="aboutsec col-md-5" ><img src="../../assets/round-desktop_mac-24px.svg"></div>
 
-    <div class="aboutsec col-md-7"><h1>My Specialty</h1>
-      <span>I design websites and code them from the ground up.<br> I also do mockup designs in Adobe XD for clients<br> I code for fun and sometimes profit.</span>
+    <div class="aboutsec col-md-7"><h1>What I do</h1>
+      <span>I design websites and code them from the ground up.<br> I also do mockup designs in Adobe XD for clients<br> I code for fun and sometimes profit. I also do open source <br> 
+      projects as long as they remain open source. I love coding for websites but I also <br> dont mind designing app mockups in my spare time</span>
     </div>
 </div>
 
 
-    <div class="definer row col-sm-12"[ngsReveal]="{ reset:true, delay:500}">
+    <div class="definer row col-sm-12"[ngsReveal]="{ reset:true, delay:200}">
       <div class="aboutsec col-md-5"><img src="../../assets/round-done-24px.svg"></div>
 
   <div class="aboutsec col-md-7" ><h1>My Workflow</h1>
-    <span>I hate unfinished and sluggish products. <br>I make sure everything works in an organized, clean manner.</span>
+    <span>I hate unfinished and sluggish products. <br>I make sure everything works in an organized, clean manner.<br> Everything I code is put through a series of standertized test to ensure<br>
+    It works for the general public, and in many different situations.</span>
   </div>
 </div>
   </div>
     
 
-<div id="Software" class="col-sm-12 row" [ngsReveal]="{ reset:true, delay:300}">
+  <div class="row col-sm-12" [ngsReveal]="{reset:true}" style="text-align:center; margin-top: 100px;">
+  
+    <h3 class="col-sm-12" style="margin-bottom:20px;">Here are some of my skills, along with my interpratation of mastery.</h3>
+
+    <div class="col-sm-4" [ngsReveal]="{ reset:true, delay:400}">
+      <circle-progress
+      [maxPercent]="100"
+      [percent]="85"
+      [radius]="75"
+      [subtitle]="'85%'"
+      [title]="'HTML/CSS'"
+      [showTitle]="true"
+      [outerStrokeWidth]="10"
+      [units]="'%'"
+      [innerStrokeWidth]="10"
+      [outerStrokeColor]="'#00e4ff'"
+      [innerStrokeColor]="'#c4f8ff'"
+      [animation]="true"
+      [animationDuration]="300"
+    ></circle-progress>
+  </div>
+
+  <div class="col-sm-4" [ngsReveal]="{ reset:true, delay:400}">
+      <circle-progress
+      [maxPercent]="100"
+      [percent]="85"
+      [radius]="75"
+      [subtitle]="'85%'"
+      [title]="'Web Frameworks'"
+      [showTitle]="true"
+      [outerStrokeWidth]="10"
+      [units]="'%'"
+      [innerStrokeWidth]="10"
+      [outerStrokeColor]="'#87b0fa'"
+      [innerStrokeColor]="'#d0e0fd'"
+      [animation]="true"
+      [animationDuration]="300"
+    ></circle-progress>
+  </div>
+
+
+  <div class="col-sm-4" [ngsReveal]="{ reset:true, delay:400}">
+      <circle-progress
+      [maxPercent]="100"
+      [percent]="25"
+      [radius]="75"
+      [subtitle]="'25%'"
+      [title]="'C#'"
+      [showTitle]="true"
+      [outerStrokeWidth]="10"
+      [units]="'%'"
+      [innerStrokeWidth]="10"
+      [outerStrokeColor]="'#ff1b00'"
+      [innerStrokeColor]="'#ffcbc4'"
+      [animation]="true"
+      [animationDuration]="300"
+    ></circle-progress>
+
+  </div>
+    <div class="col-sm-4" [ngsReveal]="{ reset:true, delay:400}">
+        <circle-progress
+        [maxPercent]="100"
+        [percent]="12"
+        [radius]="75"
+        [subtitle]="'12%'"
+        [title]="'Java'"
+        [showTitle]="true"
+        [outerStrokeWidth]="10"
+        [units]="'%'"
+        [innerStrokeWidth]="10"
+        [outerStrokeColor]="'#fad187'"
+        [innerStrokeColor]="'#fdedd0'"
+        [animation]="true"
+        [animationDuration]="300"
+      ></circle-progress>
+  </div>
+
+  <div class="col-sm-4" [ngsReveal]="{ reset:true, delay:400}">
+      <circle-progress
+      [maxPercent]="100"
+      [percent]="20"
+      [radius]="75"
+      [subtitle]="'20%'"
+      [title]="'SQl'"
+      [showTitle]="true"
+      [outerStrokeWidth]="10"
+      [units]="'%'"
+      [innerStrokeWidth]="10"
+      [outerStrokeColor]="'#cfde9d'"
+      [innerStrokeColor]="'#EBF1D6'"
+      [animation]="true"
+      [animationDuration]="300"
+    ></circle-progress>
+</div>
+<div class="col-sm-4" [ngsReveal]="{ reset:true, delay:400}">
+    <circle-progress
+    [maxPercent]="100"
+    [percent]="95"
+    [radius]="75"
+    [subtitle]="'95%'"
+    [title]="'Git'"
+    [showTitle]="true"
+    [outerStrokeWidth]="10"
+    [units]="'%'"
+    [innerStrokeWidth]="10"
+    [outerStrokeColor]="'#d0cdbd'"
+    [innerStrokeColor]="'#F0EFEA'"
+    [animation]="true"
+    [animationDuration]="300"
+  ></circle-progress>
+</div>
+  </div>
+
+<div id="Software" class="col-sm-12 row" [ngsReveal]="{ reset:true, delay:200}">
     <div style="padding: 15% 0% 0% 0px"class="col-sm-6">
-      <h2>I use a variety of tools to get the best quality products</h2><br><h3>Such as</h3>
+      <h2>I use a variety of software to compelete my profession.</h2>
+      <br><span>To get my job done, I use software of good quality and peer to peer forms in case I'm ever stuck.<br> I always put quality over quanitity or speed. I use
+     reliable <br>software that won't fail on me.</span>
     </div>
     <div class="col-sm-6 row">
-    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:700}"><img src="../../assets/visual-studio-code.svg"><h4>Visual Studio Code</h4></div>
-    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:800}"><img src="../../assets/adobe-xd.svg"><h4>Adobe XD</h4></div>
-    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:900}"><img src="../../assets/github-1.svg"><h4>Github</h4></div>
-    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:1000}"><img src="../../assets/google-drive.svg"><h4>Google Drive</h4></div>
-    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:1100}"><img src="../../assets/discord.svg"><h4>Discord</h4></div>
-    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:1100}"><img src="../../assets/stackoverflow-com.svg"><h4>StackOverflow</h4></div>
+    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:400}"><img src="../../assets/visual-studio-code.svg"><h4>Visual Studio Code</h4></div>
+    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:450}"><img src="../../assets/adobe-xd.svg"><h4>Adobe XD</h4></div>
+    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:500}"><img src="../../assets/github-1.svg"><h4>Github</h4></div>
+    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:550}"><img src="../../assets/google-drive.svg"><h4>Google Drive</h4></div>
+    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:600}"><img src="../../assets/discord.svg"><h4>Discord</h4></div>
+    <div class="col-sm-6" [ngsReveal]="{ reset:true, delay:650}"><img src="../../assets/stackoverflow-com.svg"><h4>StackOverflow</h4></div>
     </div>
   </div>
 

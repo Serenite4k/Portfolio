@@ -2,13 +2,13 @@
     text-align: center;
     height: 95vh;
     margin: 0%;
-    background:linear-gradient(0deg,#afd2ff4d,#6db9ff52),url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background:linear-gradient(0deg,#cce0fa4d,#516c8852),url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size:cover;
 }
 #introduction img{
     max-width: 300px;
     width: 75%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #introduction button{
@@ -19,6 +19,7 @@
 
 #About{
     padding-top:10%;
+    background-color: #fcfcfc;
 }
 
 .definer{
@@ -30,6 +31,10 @@
     padding: 0px 10px 0px 10px;
     text-align: center;
     
+}
+
+.aboutsec h1{
+    color: #0099ff;
 }
 
 .aboutsec img{
